@@ -1,7 +1,7 @@
 # SW-SpTRSV
 Sparse triangular solver for Sunway architecture
 
-<<Login to Sunway TaihuLight>>
+1.Login to Sunway TaihuLight
 
 - Land the homepage of Sunway TaihuLight Supercomputer: http://www.nsccwx.cn/wxcyw/
 
@@ -11,7 +11,7 @@ Sparse triangular solver for Sunway architecture
 
 Please email to clarencewxl@gmail.com for further questions.
 
-<<Experiments for the Temperature Map>>
+2.Experiments for the Temperature Map
 
 - Build the binary:
 
@@ -31,7 +31,7 @@ Note: Use bjobs to check whether the jobs finish or not.
 - The referenced performance results are listed in the file 'ref_map' in the current directory.
 Note: It will take about 24 hours to run all the benchmarks.
 
-<<Experiments for the Scatter Plot>>
+3.Experiments for the Scatter Plot
 
 - Build the binary:
 
