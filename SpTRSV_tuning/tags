@@ -1,0 +1,128 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Basic_Solver_CSC	./main.c	/^int Basic_Solver_CSC(double *x, double *a, int *ai, int *aj, double *b, int N)$/;"	f
+CACHE_X_V4	./functions_R2B64.c	10;"	d	file:
+CACHE_X_V4	./functions_R2B64_slave.c	10;"	d	file:
+CACHE_X_V4	./functions_R4B512.c	10;"	d	file:
+CACHE_X_V4	./functions_R4B512_slave.c	10;"	d	file:
+CACHE_X_V4	./functions_R8B1024.c	10;"	d	file:
+CACHE_X_V4	./functions_R8B1024_slave.c	10;"	d	file:
+CACHE_X_V4	./functions_levelsets_slave.c	10;"	d	file:
+CACHE_X_V4_LOG2	./functions_R2B64.c	11;"	d	file:
+CACHE_X_V4_LOG2	./functions_R2B64_slave.c	11;"	d	file:
+CACHE_X_V4_LOG2	./functions_R4B512.c	11;"	d	file:
+CACHE_X_V4_LOG2	./functions_R4B512_slave.c	11;"	d	file:
+CACHE_X_V4_LOG2	./functions_R8B1024.c	11;"	d	file:
+CACHE_X_V4_LOG2	./functions_R8B1024_slave.c	11;"	d	file:
+CACHE_X_V4_LOG2	./functions_levelsets_slave.c	11;"	d	file:
+CSC2CSR	./main.c	/^void CSC2CSR(Matrix_Reorder *csr, Matrix_Reorder *csc)$/;"	f
+Compress_General_R2B64	./functions_R2B64.c	/^int Compress_General_R2B64(Matrix_Compress_General *C, Matrix_Reorder *R)$/;"	f
+Compress_General_R4B512	./functions_R4B512.c	/^int Compress_General_R4B512(Matrix_Compress_General *C, Matrix_Reorder *R)$/;"	f
+Compress_General_R8B1024	./functions_R8B1024.c	/^int Compress_General_R8B1024(Matrix_Compress_General *C, Matrix_Reorder *R)$/;"	f
+Consumer	./functions_R2B64_slave.c	/^static void Consumer(doublev4 *x, doublev4 *b, int *_level, int *_cnt, int levels, int n)$/;"	f	file:
+Consumer	./functions_R4B512_slave.c	/^static void Consumer(doublev4 *x, doublev4 *b, int *_level, int *_cnt, int levels, int n)$/;"	f	file:
+Consumer	./functions_R8B1024_slave.c	/^static void Consumer(doublev4 *x, doublev4 *b, int *_level, int *_cnt, int levels, int n)$/;"	f	file:
+EMPTY_GETC	./functions_R2B64_slave.c	/^static inline int EMPTY_GETC(void) { int var; asm volatile ("rcsr %0,0x35\\n":"=r"(var)); return var; }$/;"	f	file:
+EMPTY_GETC	./functions_R4B512_slave.c	/^static inline int EMPTY_GETC(void) { int var; asm volatile ("rcsr %0,0x35\\n":"=r"(var)); return var; }$/;"	f	file:
+EMPTY_GETC	./functions_R8B1024_slave.c	/^static inline int EMPTY_GETC(void) { int var; asm volatile ("rcsr %0,0x35\\n":"=r"(var)); return var; }$/;"	f	file:
+EMPTY_GETR	./functions_R2B64_slave.c	/^static inline int EMPTY_GETR(void) { int var; asm volatile ("rcsr %0,0x34\\n":"=r"(var)); return var; }$/;"	f	file:
+EMPTY_GETR	./functions_R4B512_slave.c	/^static inline int EMPTY_GETR(void) { int var; asm volatile ("rcsr %0,0x34\\n":"=r"(var)); return var; }$/;"	f	file:
+EMPTY_GETR	./functions_R8B1024_slave.c	/^static inline int EMPTY_GETR(void) { int var; asm volatile ("rcsr %0,0x34\\n":"=r"(var)); return var; }$/;"	f	file:
+FULL_PUT	./functions_R2B64_slave.c	/^static inline int FULL_PUT(void) { int var; asm volatile ("rcsr %0,0x36\\n":"=r"(var)); return var; }$/;"	f	file:
+FULL_PUT	./functions_R4B512_slave.c	/^static inline int FULL_PUT(void) { int var; asm volatile ("rcsr %0,0x36\\n":"=r"(var)); return var; }$/;"	f	file:
+FULL_PUT	./functions_R8B1024_slave.c	/^static inline int FULL_PUT(void) { int var; asm volatile ("rcsr %0,0x36\\n":"=r"(var)); return var; }$/;"	f	file:
+Finalize_Matrix	./main.c	/^int Finalize_Matrix(Matrix *m)$/;"	f
+Finalize_Matrix_Compress	./main.c	/^int Finalize_Matrix_Compress(Matrix_Compress *m)$/;"	f
+Finalize_Matrix_Compress_General	./main.c	/^int Finalize_Matrix_Compress_General(Matrix_Compress_General *m)$/;"	f
+Finalize_Matrix_Reorder	./main.c	/^int Finalize_Matrix_Reorder(Matrix_Reorder *m)$/;"	f
+Finalize_Matrix_Special	./main.c	/^int Finalize_Matrix_Special(Matrix_Special *s)$/;"	f
+Finalize_Matrix_WXL	./main.c	/^int Finalize_Matrix_WXL(Matrix_WXL *m)$/;"	f
+General_Solver_CSC_Multiple_MPE_R2B64	./functions_R2B64_slave.c	/^void General_Solver_CSC_Multiple_MPE_R2B64(void *_ptr)$/;"	f
+General_Solver_CSC_Multiple_MPE_R4B512	./functions_R4B512_slave.c	/^void General_Solver_CSC_Multiple_MPE_R4B512(void *_ptr)$/;"	f
+General_Solver_CSC_Multiple_MPE_R8B1024	./functions_R8B1024_slave.c	/^void General_Solver_CSC_Multiple_MPE_R8B1024(void *_ptr)$/;"	f
+Init_Vector_100	./main.c	/^int Init_Vector_100(double *x, int N)$/;"	f
+Init_Zero_Vector	./main.c	/^int Init_Zero_Vector(double *x, int N)$/;"	f
+Levelsets	./functions_levelsets_slave.c	/^void Levelsets(void *_ptr)$/;"	f
+Load_From_File	./main.c	/^int Load_From_File(Matrix *m, char *name)$/;"	f
+MAX	./functions_R2B64.c	20;"	d	file:
+MAX	./functions_R2B64_slave.c	21;"	d	file:
+MAX	./functions_R4B512.c	20;"	d	file:
+MAX	./functions_R4B512_slave.c	21;"	d	file:
+MAX	./functions_R8B1024.c	20;"	d	file:
+MAX	./functions_R8B1024_slave.c	21;"	d	file:
+MAX	./functions_levelsets_slave.c	21;"	d	file:
+MAX	./main.c	15;"	d	file:
+MIN	./functions_R2B64.c	19;"	d	file:
+MIN	./functions_R2B64_slave.c	20;"	d	file:
+MIN	./functions_R4B512.c	19;"	d	file:
+MIN	./functions_R4B512_slave.c	20;"	d	file:
+MIN	./functions_R8B1024.c	19;"	d	file:
+MIN	./functions_R8B1024_slave.c	20;"	d	file:
+MIN	./functions_levelsets_slave.c	20;"	d	file:
+MIN	./main.c	14;"	d	file:
+Output_Matrix	./main.c	/^int Output_Matrix(Matrix *m)$/;"	f
+Output_Result	./main.c	/^void Output_Result(char *_name, int SF, int SB, int MF, int MB, double R)$/;"	f
+PRODUCER_CONSUMER_ROWS	./functions_R2B64.c	8;"	d	file:
+PRODUCER_CONSUMER_ROWS	./functions_R2B64_slave.c	8;"	d	file:
+PRODUCER_CONSUMER_ROWS	./functions_R4B512.c	8;"	d	file:
+PRODUCER_CONSUMER_ROWS	./functions_R4B512_slave.c	8;"	d	file:
+PRODUCER_CONSUMER_ROWS	./functions_R8B1024.c	8;"	d	file:
+PRODUCER_CONSUMER_ROWS	./functions_R8B1024_slave.c	8;"	d	file:
+PRODUCER_CONSUMER_ROWS	./functions_levelsets_slave.c	8;"	d	file:
+PRODUCER_CONSUMER_ROWS_LOG2	./functions_R2B64.c	9;"	d	file:
+PRODUCER_CONSUMER_ROWS_LOG2	./functions_R2B64_slave.c	9;"	d	file:
+PRODUCER_CONSUMER_ROWS_LOG2	./functions_R4B512.c	9;"	d	file:
+PRODUCER_CONSUMER_ROWS_LOG2	./functions_R4B512_slave.c	9;"	d	file:
+PRODUCER_CONSUMER_ROWS_LOG2	./functions_R8B1024.c	9;"	d	file:
+PRODUCER_CONSUMER_ROWS_LOG2	./functions_R8B1024_slave.c	9;"	d	file:
+PRODUCER_CONSUMER_ROWS_LOG2	./functions_levelsets_slave.c	9;"	d	file:
+Parallel_Levelsets_better	./functions_levelsets_slave.c	/^static void Parallel_Levelsets_better(double *x, double *aa, int *ai, int *aj, int *levels, double *b, int N, int L)$/;"	f	file:
+Parallel_Solver_CSR	./functions_R8B1024.c	/^int Parallel_Solver_CSR(double *x, double *a, int *ai, int *aj, int *levels, double *b, int N, int L, int times)$/;"	f
+Parallel_Solver_Compress_General_R2B64	./functions_R2B64.c	/^int Parallel_Solver_Compress_General_R2B64(double *x, Matrix_Compress_General *m, double *b, int times)$/;"	f
+Parallel_Solver_Compress_General_R4B512	./functions_R4B512.c	/^int Parallel_Solver_Compress_General_R4B512(double *x, Matrix_Compress_General *m, double *b, int times)$/;"	f
+Parallel_Solver_Compress_General_R8B1024	./functions_R8B1024.c	/^int Parallel_Solver_Compress_General_R8B1024(double *x, Matrix_Compress_General *m, double *b, int times)$/;"	f
+Producer_General	./functions_R2B64_slave.c	/^static void Producer_General(doublev4 *x, doublev4 *b, double *_aa, unsigned int *_ai, unsigned int *_aj, int *_idx, int *_level, int levels, int n)$/;"	f	file:
+Producer_General	./functions_R4B512_slave.c	/^static void Producer_General(doublev4 *x, doublev4 *b, double *_aa, unsigned int *_ai, unsigned int *_aj, int *_idx, int *_level, int levels, int n)$/;"	f	file:
+Producer_General	./functions_R8B1024_slave.c	/^static void Producer_General(doublev4 *x, doublev4 *b, double *_aa, unsigned int *_ai, unsigned int *_aj, int *_idx, int *_level, int levels, int n)$/;"	f	file:
+REG_GETC_DI	./functions_R2B64_slave.c	39;"	d	file:
+REG_GETC_DI	./functions_R4B512_slave.c	39;"	d	file:
+REG_GETC_DI	./functions_R8B1024_slave.c	39;"	d	file:
+REG_GETC_I2	./functions_R2B64_slave.c	35;"	d	file:
+REG_GETC_I2	./functions_R4B512_slave.c	35;"	d	file:
+REG_GETC_I2	./functions_R8B1024_slave.c	35;"	d	file:
+REG_GETR_DI	./functions_R2B64_slave.c	38;"	d	file:
+REG_GETR_DI	./functions_R4B512_slave.c	38;"	d	file:
+REG_GETR_DI	./functions_R8B1024_slave.c	38;"	d	file:
+REG_GETR_I2	./functions_R2B64_slave.c	34;"	d	file:
+REG_GETR_I2	./functions_R4B512_slave.c	34;"	d	file:
+REG_GETR_I2	./functions_R8B1024_slave.c	34;"	d	file:
+REG_PUTC_DI	./functions_R2B64_slave.c	41;"	d	file:
+REG_PUTC_DI	./functions_R4B512_slave.c	41;"	d	file:
+REG_PUTC_DI	./functions_R8B1024_slave.c	41;"	d	file:
+REG_PUTC_I2	./functions_R2B64_slave.c	37;"	d	file:
+REG_PUTC_I2	./functions_R4B512_slave.c	37;"	d	file:
+REG_PUTC_I2	./functions_R8B1024_slave.c	37;"	d	file:
+REG_PUTR_DI	./functions_R2B64_slave.c	40;"	d	file:
+REG_PUTR_DI	./functions_R4B512_slave.c	40;"	d	file:
+REG_PUTR_DI	./functions_R8B1024_slave.c	40;"	d	file:
+REG_PUTR_I2	./functions_R2B64_slave.c	36;"	d	file:
+REG_PUTR_I2	./functions_R4B512_slave.c	36;"	d	file:
+REG_PUTR_I2	./functions_R8B1024_slave.c	36;"	d	file:
+Reorder	./main.c	/^double Reorder(Matrix_Reorder *R, Matrix *M)$/;"	f
+TIME	./functions_R2B64.c	18;"	d	file:
+TIME	./functions_R4B512.c	18;"	d	file:
+TIME	./functions_R8B1024.c	18;"	d	file:
+TIME	./main.c	13;"	d	file:
+_cmp	./main.c	/^int _cmp(const void *a , const void *b )$/;"	f
+_cmp_levels	./main.c	/^int _cmp_levels(const void *_a , const void *_b )$/;"	f
+main	./main.c	/^int main(int argc, char **argv)$/;"	f
+slave_get_rtc	./functions_R2B64_slave.c	/^static inline uint64_t slave_get_rtc()$/;"	f	file:
+slave_get_rtc	./functions_R4B512_slave.c	/^static inline uint64_t slave_get_rtc()$/;"	f	file:
+slave_get_rtc	./functions_R8B1024_slave.c	/^static inline uint64_t slave_get_rtc()$/;"	f	file:
+wxl_dma_wait	./functions_R2B64_slave.c	/^static void wxl_dma_wait(int *v, int C)$/;"	f	file:
+wxl_dma_wait	./functions_R4B512_slave.c	/^void wxl_dma_wait(int *v, int C)$/;"	f
+wxl_dma_wait	./functions_R8B1024_slave.c	/^void wxl_dma_wait(int *v, int C)$/;"	f

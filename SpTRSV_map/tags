@@ -1,0 +1,117 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Analyse_Matrix	./main.c	/^int Analyse_Matrix(Matrix *m)$/;"	f
+Basic_Solver_CSC	./main.c	/^int Basic_Solver_CSC(double *x, double *a, int *ai, int *aj, double *b, int N)$/;"	f
+Basic_Solver_Compress	./main.c	/^int Basic_Solver_Compress(double *x, Matrix_Compress *M, double *b)$/;"	f
+Basic_Solver_Compress_General	./main.c	/^int Basic_Solver_Compress_General(double *x, Matrix_Compress_General *M, double *b)$/;"	f
+Basic_Solver_WXL	./main.c	/^int Basic_Solver_WXL(double *x, Matrix_WXL *M, double *b)$/;"	f
+Compress	./main.c	/^int Compress(Matrix_Compress *C, Matrix_Reorder *R)$/;"	f
+Compress_General	./main.c	/^int Compress_General(Matrix_Compress_General *C, Matrix_Reorder *R)$/;"	f
+Consumer	./c.c	/^void Consumer(doublev4 *x, doublev4 *b, int *_level, int *_cnt, int levels, int n)$/;"	f
+Consumer	./functions_slave.c	/^void Consumer(doublev4 *x, doublev4 *b, int *_level, int *_cnt, int levels, int n)$/;"	f
+EMPTY_GETC	./c.c	/^static inline int EMPTY_GETC(void) { int var; asm volatile ("rcsr %0,0x35\\n":"=r"(var)); return var; }$/;"	f	file:
+EMPTY_GETC	./functions_slave.c	/^static inline int EMPTY_GETC(void) { int var; asm volatile ("rcsr %0,0x35\\n":"=r"(var)); return var; }$/;"	f	file:
+EMPTY_GETR	./c.c	/^static inline int EMPTY_GETR(void) { int var; asm volatile ("rcsr %0,0x34\\n":"=r"(var)); return var; }$/;"	f	file:
+EMPTY_GETR	./functions_slave.c	/^static inline int EMPTY_GETR(void) { int var; asm volatile ("rcsr %0,0x34\\n":"=r"(var)); return var; }$/;"	f	file:
+FULL_PUT	./c.c	/^static inline int FULL_PUT(void) { int var; asm volatile ("rcsr %0,0x36\\n":"=r"(var)); return var; }$/;"	f	file:
+FULL_PUT	./functions_slave.c	/^static inline int FULL_PUT(void) { int var; asm volatile ("rcsr %0,0x36\\n":"=r"(var)); return var; }$/;"	f	file:
+Finalize_Matrix	./main.c	/^int Finalize_Matrix(Matrix *m)$/;"	f
+Finalize_Matrix_Compress	./main.c	/^int Finalize_Matrix_Compress(Matrix_Compress *m)$/;"	f
+Finalize_Matrix_Compress_General	./main.c	/^int Finalize_Matrix_Compress_General(Matrix_Compress_General *m)$/;"	f
+Finalize_Matrix_Reorder	./main.c	/^int Finalize_Matrix_Reorder(Matrix_Reorder *m)$/;"	f
+Finalize_Matrix_Special	./main.c	/^int Finalize_Matrix_Special(Matrix_Special *s)$/;"	f
+Finalize_Matrix_WXL	./main.c	/^int Finalize_Matrix_WXL(Matrix_WXL *m)$/;"	f
+General_Solver_CSC_Multiple_MPE	./c.c	/^void General_Solver_CSC_Multiple_MPE(void *_ptr)$/;"	f
+General_Solver_CSC_Multiple_MPE	./functions_slave.c	/^void General_Solver_CSC_Multiple_MPE(void *_ptr)$/;"	f
+Init_3D13	./main.c	/^int Init_3D13(Matrix *m, int M, int N, int L, int max)$/;"	f
+Init_3D7	./main.c	/^int Init_3D7(Matrix *m, int M, int N, int L, int max)$/;"	f
+Init_Diagonal	./main.c	/^int Init_Diagonal(Matrix *m, int n)$/;"	f
+Init_Random	./main.c	/^int Init_Random(Matrix *m, int n, int max)$/;"	f
+Init_Random_Vector	./main.c	/^int Init_Random_Vector(double *x, int N)$/;"	f
+Init_Zero_Vector	./main.c	/^int Init_Zero_Vector(double *x, int N)$/;"	f
+Load_From_File	./main.c	/^int Load_From_File(Matrix *m, char *name)$/;"	f
+MAX	./c.c	16;"	d	file:
+MAX	./functions.c	16;"	d	file:
+MAX	./functions_slave.c	16;"	d	file:
+MAX	./main.c	15;"	d	file:
+MAX	./s.c	16;"	d	file:
+MIN	./c.c	15;"	d	file:
+MIN	./functions.c	15;"	d	file:
+MIN	./functions_slave.c	15;"	d	file:
+MIN	./main.c	14;"	d	file:
+MIN	./s.c	15;"	d	file:
+Matrix	./main.c	/^} Matrix;$/;"	t	typeref:struct:__anon1	file:
+Matrix_Reorder	./main.c	/^} Matrix_Reorder;$/;"	t	typeref:struct:__anon2	file:
+Memcpy	./functions.c	/^int Memcpy(void *dst, void *src, int size)$/;"	f
+Memcpy	./s.c	/^int Memcpy(void *dst, void *src, int size)$/;"	f
+Memcpy_Kernel	./c.c	/^void Memcpy_Kernel(char *dst, char *src, int size)$/;"	f
+Memcpy_Kernel	./functions_slave.c	/^void Memcpy_Kernel(char *dst, char *src, int size)$/;"	f
+Memcpy_MPE	./c.c	/^void Memcpy_MPE(void *_ptr)$/;"	f
+Memcpy_MPE	./functions_slave.c	/^void Memcpy_MPE(void *_ptr)$/;"	f
+N	./c.c	133;"	d	file:
+N	./c.c	153;"	d	file:
+N	./functions_slave.c	133;"	d	file:
+N	./functions_slave.c	153;"	d	file:
+Output_Matrix	./main.c	/^int Output_Matrix(Matrix *m)$/;"	f
+Output_Result	./main.c	/^void Output_Result(char *_name, int SF, int SB, int MF, int MB, double R)$/;"	f
+Parallel_Solver_Compress_General	./functions.c	/^int Parallel_Solver_Compress_General(double *x, Matrix_Compress_General *m, double *b)$/;"	f
+Parallel_Solver_Compress_General	./s.c	/^int Parallel_Solver_Compress_General(double *x, Matrix_Compress_General *m, double *b)$/;"	f
+Producer_General	./c.c	/^void Producer_General(doublev4 *x, doublev4 *b, double *_aa, unsigned int *_ai, unsigned int *_aj, int *_idx, int *_level, int levels, int n)$/;"	f
+Producer_General	./functions_slave.c	/^void Producer_General(doublev4 *x, doublev4 *b, double *_aa, unsigned int *_ai, unsigned int *_aj, int *_idx, int *_level, int levels, int n)$/;"	f
+REG_GETC_DI	./c.c	39;"	d	file:
+REG_GETC_DI	./functions_slave.c	39;"	d	file:
+REG_GETC_I2	./c.c	35;"	d	file:
+REG_GETC_I2	./functions_slave.c	35;"	d	file:
+REG_GETR_DI	./c.c	38;"	d	file:
+REG_GETR_DI	./functions_slave.c	38;"	d	file:
+REG_GETR_I2	./c.c	34;"	d	file:
+REG_GETR_I2	./functions_slave.c	34;"	d	file:
+REG_PUTC_DI	./c.c	41;"	d	file:
+REG_PUTC_DI	./functions_slave.c	41;"	d	file:
+REG_PUTC_I2	./c.c	37;"	d	file:
+REG_PUTC_I2	./functions_slave.c	37;"	d	file:
+REG_PUTR_DI	./c.c	40;"	d	file:
+REG_PUTR_DI	./functions_slave.c	40;"	d	file:
+REG_PUTR_I2	./c.c	36;"	d	file:
+REG_PUTR_I2	./functions_slave.c	36;"	d	file:
+Reorder	./main.c	/^int Reorder(Matrix_Reorder *R, Matrix *M)$/;"	f
+TIME	./functions.c	14;"	d	file:
+TIME	./main.c	13;"	d	file:
+TIME	./s.c	14;"	d	file:
+_cmp	./main.c	/^int _cmp(const void *a , const void *b )$/;"	f
+_cmp_levels	./main.c	/^int _cmp_levels(const void *_a , const void *_b )$/;"	f
+a	./main.c	/^	double *a;$/;"	m	struct:__anon1	file:
+a	./main.c	/^	double *a;$/;"	m	struct:__anon2	file:
+ai	./main.c	/^	int *ai;$/;"	m	struct:__anon1	file:
+ai	./main.c	/^	int *ai;$/;"	m	struct:__anon2	file:
+aj	./main.c	/^	int *aj;$/;"	m	struct:__anon1	file:
+aj	./main.c	/^	int *aj;$/;"	m	struct:__anon2	file:
+check	./main.c	/^void check(double *A, double *B, int N)$/;"	f
+check_id	./c.c	/^__thread_local int check_id = 5;$/;"	v
+check_id	./functions_slave.c	/^__thread_local int check_id = 5;$/;"	v
+level	./main.c	/^	int n, level;$/;"	m	struct:__anon2	file:
+m2r	./main.c	/^	int *m2r;$/;"	m	struct:__anon2	file:
+main	./main.c	/^int main(int argc, char **argv)$/;"	f
+n	./main.c	/^	int n, level;$/;"	m	struct:__anon2	file:
+n	./main.c	/^	int n;$/;"	m	struct:__anon1	file:
+nz	./main.c	/^	int *nz;$/;"	m	struct:__anon1	file:
+r2m	./main.c	/^	int *r2m;$/;"	m	struct:__anon2	file:
+slave_get_rtc	./c.c	/^static inline uint64_t slave_get_rtc()$/;"	f	file:
+slave_get_rtc	./functions_slave.c	/^static inline uint64_t slave_get_rtc()$/;"	f	file:
+special_check	./main.c	/^void special_check(double *A, double *B, int N)$/;"	f
+stest	./c.c	/^void stest(void *_ptr)$/;"	f
+stest	./functions_slave.c	/^void stest(void *_ptr)$/;"	f
+swaps	./c.c	/^__thread_local long long swaps = 0; $/;"	v
+swaps	./functions_slave.c	/^__thread_local long long swaps = 0; $/;"	v
+test	./functions.c	/^long long test()$/;"	f
+test	./s.c	/^long long test()$/;"	f
+wxl_dma_wait	./c.c	/^void wxl_dma_wait(int *v, int C)$/;"	f
+wxl_dma_wait	./functions_slave.c	/^void wxl_dma_wait(int *v, int C)$/;"	f
+wxl_printf	./c.c	/^__thread_local int (*wxl_printf)(const char *format,...) = printf;$/;"	v
+wxl_printf	./functions_slave.c	/^__thread_local int (*wxl_printf)(const char *format,...) = printf;$/;"	v
+wxl_time	./c.c	/^__thread_local int wxl_time[512];$/;"	v
+wxl_time	./functions_slave.c	/^__thread_local int wxl_time[512];$/;"	v
