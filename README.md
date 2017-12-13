@@ -23,7 +23,7 @@ makeall.sh
 
 ./test.sh -I benchmark_name
 
-Note: The benchmarks' names are listed in the file: benchmarks\_list in the same directory
+Note: The benchmarks' names are listed in the file: benchmarks_list in the same directory
 
 - Use nohup to run all the benchmarks
 
@@ -47,7 +47,7 @@ make
 
 ./run.sh -I benchmark_name
 
-Note: The benchmarks' names are listed in the file: benchmarks\_list in the same directory
+Note: The benchmarks' names are listed in the file: benchmarks_list in the same directory
 
 - Use nohup to run all the benchmarks
 
