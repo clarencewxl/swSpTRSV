@@ -29,7 +29,7 @@ Note: The benchmarks' names are listed in the file: benchmarks\_list in the same
 
 nohup ./total_run.sh &
 
-Note: Use bjobs to check whether the jobs finish or not. Each job will product a new file in the subdirectory 'results' in the current directory.
+Note: Use bjobs to check whether the jobs finish or not. Each job will make a new file in the subdirectory 'results' in the current directory.
 
 - The referenced performance results are listed in the file 'ref_map' in the current directory.
 
@@ -53,7 +53,7 @@ Note: The benchmarks' names are listed in the file: benchmarks\_list in the same
 
 nohup ./total_run.sh &
 
-Note: Use bjobs to check whether the jobs finish or not. Each job will product a new file in the subdirectory 'results' in the current directory.
+Note: Use bjobs to check whether the jobs finish or not. Each job will make a new file in the subdirectory 'results' in the current directory.
 
 - The referenced performance results are listed in the file 'ref_SwSpTRSV', 'ref_serial' and 'ref_levelsets' in the current directory. 
 
