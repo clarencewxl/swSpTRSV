@@ -55,6 +55,6 @@ nohup ./total_run.sh &
 
 Note: Use bjobs to check whether the jobs finish or not. Each job will product a new file in the subdirectory 'results' in the current directory.
 
-- The referenced performance results are listed in the file 'ref_SwSpTRSV' in the current directory.
+- The referenced performance results are listed in the file 'ref_SwSpTRSV', 'ref_serial' and 'ref_levelsets' in the current directory. 
 
 Note: There are totally $2057$ works and will cost about 2 hours. As works can be currently done using different processors, depending on the task-schedule system, you do not need to wait for finishing all the works and can compare any work's result with the referenced result as long as it is finished.
