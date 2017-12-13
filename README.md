@@ -1,5 +1,5 @@
-# SW-SpTRSV
-Sparse triangular solver for Sunway architecture
+# swSpTRSV
+Sparse triangular solve for Sunway architecture
 
 1.Login to Sunway TaihuLight
 
