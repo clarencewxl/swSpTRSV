@@ -552,7 +552,8 @@ void Producer_General(doublev4 *x, doublev4 *b, double *_aa, unsigned int *_ai, 
 				}
 				last_idx = idx[ii*MAX_SUB_LEVELS];
 				//Write Data to main memory
-				if((CONSUMER_BUFFER_V4 - buf_idx) >= len)
+				//if((CONSUMER_BUFFER_V4 - buf_idx) >= len)
+				if((CONSUMER_BUFFER_V4 - buf_idx) >= len && ((x - x_original + buf_idx + len)&CACHE_X_V4_2NUM) > ((x - x_original)&CACHE_X_V4_2NUM))
 				{
 					for(j = 0; j < len; j ++)
 					{
